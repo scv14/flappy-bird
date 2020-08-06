@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Список пользователей</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="style.css" > 
+    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="canvas" width="276" height="414"></canvas>
+    <div class="form">
+        <form name="userForm">
+            <div>
+                <label for="name">Телефон:</label>
+                <input name="name" type="tel" placeholder="+7 999 999 99 99" pattern="+7[0-9]{3}-[0-9]{3}"/>
+                <label for="point">Очко:</label>
+                <span class="kek"></span>
+            </div>
+            <div class="btn">
+                <button type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+
+<script src="./index.js"></script>
+</body>
+
+</html>
